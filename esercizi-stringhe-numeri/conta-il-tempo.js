@@ -12,3 +12,5 @@
 
   http://www.imparareaprogrammare.it
 */
+let secondi = prompt("Input(s):");
+document.write(secondi);
