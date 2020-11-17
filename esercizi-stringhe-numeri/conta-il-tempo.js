@@ -12,5 +12,10 @@
 
   http://www.imparareaprogrammare.it
 */
-let secondi = prompt("Input(s):");
-document.write(secondi);
+const seconds_in_one_hour = 3600;
+var secondsInput = prompt("Input (s):");
+document.write(secondsInput);
+var hour = secondsInput/seconds_in_one_hour;
+var decimalHourDivision = hour/10;
+var minutes = decimalHourDivision*60;
+console.log("Output: "+hour+" ore"+", "+minutes+" minuti");
